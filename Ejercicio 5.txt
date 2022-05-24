@@ -1,0 +1,60 @@
+5)
+a)Select Nombres from Empleados Order by Nombres
+
+b)Select E.Nombres, P.Puesto, L.Localidad 
+    from Empleados E 
+   Inner Join Puestos P on E.Puesto_Id = P.Id
+   Inner Join Departamentos D on E.Departamento_Id = D.Id
+   Inner Join Localidades L on D.Localidad_Id = L.Id
+   where P.Puesto = "Soporte"
+
+c)Select Nombres from Empleados like "%o"
+
+d)Select E.Nombres, P.Puesto, E.Sueldo 
+    from Empleados E 
+   Inner Join Puestos P on E.Puesto_Id = P.Id
+   Inner Join Departamentos D on E.Departamento_Id = D.Id
+   Inner Join Localidades L on D.Localidad_Id = L.Id
+   where L.Localidad = "Carlos Paz"
+
+e)Select E.Nombres, P.Puesto, E.Sueldo 
+    from Empleados E 
+   Inner Join Puestos P on E.Puesto_Id = P.Id
+   Inner Join Departamentos D on E.Departamento_Id = D.Id
+   Inner Join Localidades L on D.Localidad_Id = L.Id
+   where E.Sueldo between 10000 and 130000
+
+f)Select Count(E.Id), D.Denominacion 
+    from Departamentos D 
+   Inner Join Empleados E on E.Departamento_Id = D.Id
+   Group by D.Denominacion
+  Having Count (E.Id) > 5;
+
+g)Select E.Nombres
+    from Empleados E 
+   Inner Join Puestos P on E.Puesto_Id = P.Id
+   Inner Join Departamentos D on E.Departamento_Id = D.Id
+   Inner Join Localidades L on D.Localidad_Id = L.Id
+   where L.Localidad = "Cordoba" and P.Puesto in ("Analista", "Programador") 
+
+h)Select AVG(E.Sueldo)
+    from Empleados E 
+
+
+h)Select Max(E.Sueldo)
+    from Empleados E
+   where E.Departamento_ID = 10
+
+i)Select Min(E.Sueldo)
+    from Empleados E 
+   Inner Join Departamentos D on E.Departamento_Id = D.Id
+   where D.Denominacion = 'Soporte'
+
+g)Select Sum(E.Sueldo), P.Puesto
+    from Empleados E 
+   Inner Join Puestos P on E.Puesto_Id = P.Id
+   Group by P.Puesto
+
+
+
+   
