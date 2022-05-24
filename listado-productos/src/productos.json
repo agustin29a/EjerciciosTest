@@ -1,0 +1,65 @@
+[
+  {
+    "id": 2,
+    "codigoArticulo": "A001",
+    "nombre": "Silla Baby",
+    "descripcion": "silla de bebé para auto",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "codigoArticulo": "A002",
+    "nombre": "GPS",
+    "descripcion": "GPS modelo 2022",
+    "stock": 7
+  },
+  {
+    "id": 8,
+    "codigoArticulo": "A003",
+    "nombre": "Headset",
+    "descripcion": "headset amarillos",
+    "stock": 9
+  },
+  {
+    "id": 10,
+    "codigoArticulo": "A004",
+    "nombre": "Auriculares Phillips",
+    "descripcion": "auriculares negros",
+    "stock": 20
+  },
+  {
+    "id": 28,
+    "codigoArticulo": "A005",
+    "nombre": "home theater",
+    "descripcion": "2 parales 20w",
+    "stock": 15
+  },
+  {
+    "id": 80,
+    "codigoArticulo": "A006",
+    "nombre": "Cafetera",
+    "descripcion": "cafetera que hace café",
+    "stock": 10
+  },
+  {
+    "id": 81,
+    "codigoArticulo": "A007",
+    "nombre": "Parlante",
+    "descripcion": "parlante fiestero",
+    "stock": 25
+  },
+  {
+    "id": 107,
+    "codigoArticulo": "A008",
+    "nombre": "Aspiradora",
+    "descripcion": "aspiradora roja",
+    "stock": 0
+  },
+  {
+    "id": 153,
+    "codigoArticulo": "A009",
+    "nombre": "Teclado qwerty",
+    "descripcion": "qwerty",
+    "stock": 10
+  }
+]
